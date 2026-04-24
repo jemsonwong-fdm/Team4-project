@@ -3,10 +3,16 @@
  * Tests connection, match scoring, error handling, and logging
  */
 
-import { baseLLMService } from '../lib/services/llm/base';
-import { scoringService } from '../lib/services/llm/scoringService';
-import { EcosystemPosition, type Client } from '../lib/models';
-import { llmInteractionLogStore } from '../lib/data/stores';
+// Load environment variables from .env.local
+import * as dotenv from 'dotenv';
+import * as path from 'path';
+
+dotenv.config({ path: path.resolve(process.cwd(), '.env.local') });
+
+import { baseLLMService } from '@/lib/services/llm/base';
+import { scoringService } from '@/lib/services/llm/scoringService';
+import { EcosystemPosition, type Client } from '@/lib/models';
+import { llmInteractionLogStore } from '@/lib/data/stores';
 
 // Sample clients for testing
 const sampleClient1: Client = {

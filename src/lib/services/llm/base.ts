@@ -46,9 +46,9 @@ export class BaseLLMService {
      */
     private configureFromEnv(): void {
         const apiKey = process.env.AZURE_OPENAI_API_KEY;
-        const endpoint = process.env.AZURE_OPENAI_ENDPOINT || 'https://klaudio-eastus2-resource.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-08-01-preview';
+        const endpoint = process.env.AZURE_OPENAI_ENDPOINT || 'https://klaudio-eastus2-resource.openai.azure.com/openai/deployments/gpt-4.1-mini';
         const projectsEndpoint = process.env.AZURE_OPENAI_PROJECTS_ENDPOINT || 'https://klaudio-eastus2-resource.services.ai.azure.com/api/projects/klaudio-eastus2';
-        const model = process.env.AZURE_OPENAI_MODEL || 'gpt-4o';
+        const model = process.env.AZURE_OPENAI_MODEL || 'gpt-4.1-mini';
         const apiVersion = process.env.AZURE_OPENAI_API_VERSION || '2024-08-01-preview';
 
         if (!apiKey) {
@@ -71,23 +71,26 @@ export class BaseLLMService {
     configure(config: AzureOpenAIConfig): void {
         this.config = config;
 
-        // Extract base URL from the full endpoint (remove deployment-specific path)
+        // Extract base URL and deployment name from the full endpoint
         // Azure endpoint format: https://{resource}.openai.azure.com/openai/deployments/{deployment}/chat/completions?api-version={version}
-        // We need: https://{resource}.openai.azure.com/openai
+        // We need: https://{resource}.openai.azure.com
         let baseURL = config.endpoint;
+        let deploymentName = config.model;
 
-        // If endpoint contains deployment path, extract base URL
+        // If endpoint contains deployment path, extract base URL and deployment name
         if (baseURL.includes('/deployments/')) {
-            const match = baseURL.match(/(https:\/\/[^\/]+\/openai)/);
+            const match = baseURL.match(/^(https:\/\/[^\/]+)\/openai\/deployments\/([^\/]+)/);
             if (match) {
                 baseURL = match[1];
+                deploymentName = match[2];
             }
         }
 
         // Initialize OpenAI client with Azure configuration
+        // The OpenAI SDK will automatically append /chat/completions to the baseURL
         this.client = new OpenAI({
             apiKey: config.apiKey,
-            baseURL: baseURL,
+            baseURL: `${baseURL}/openai/deployments/${deploymentName}`,
             defaultHeaders: {
                 'api-key': config.apiKey
             },
@@ -95,6 +98,9 @@ export class BaseLLMService {
                 'api-version': config.apiVersion
             }
         });
+
+        // Store the deployment name for use in requests
+        this.config.model = deploymentName;
     }
 
     /**

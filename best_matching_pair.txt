@@ -1,0 +1,11 @@
+Best Matching Pair
+
+Opportunity Title: DragonSun Developments + GreatWall EPC
+Match & Score:
+  Ecosystem pairing: Project Developers + EPC Contractors
+  Geographic proximity: Same city
+  Match score: 48.0
+Match Explanation:
+Confirmation: Project Developers + EPC Contractors is a valid ecosystem pairing.
+Project Developers and EPC Contractors interact in the clean power ecosystem.
+Geographic proximity: Same city.

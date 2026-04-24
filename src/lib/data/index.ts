@@ -20,3 +20,13 @@ export {
     POSITION_PAIR_TO_PRODUCTS,
     POSITION_RELATIONSHIPS
 } from './bankingProducts';
+
+export {
+    clearInMemoryData,
+    getDataMode,
+    loadMockData,
+    setDataMode,
+    switchDataMode,
+    type DataMode,
+    type MockDataLoadResult
+} from './mockDataLoader';

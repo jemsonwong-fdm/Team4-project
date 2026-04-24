@@ -67,14 +67,14 @@ This implementation plan breaks down the Cross-Ecosystem Opportunity Finder into
     - Return results as they complete (streaming results)
     - _Requirements: 3.1_
 
-- [-] 5. Checkpoint - Verify LLM integration works
+- [x] 5. Checkpoint - Verify LLM integration works
   - Ensure Azure OpenAI connection is successful
   - Manually test match scoring with sample client pairs
   - Verify error handling and logging
   - Ask the user if questions arise
 
-- [~] 6. Implement client management service
-  - [ ] 6.1 Create ClientService with CRUD operations
+- [x] 6. Implement client management service
+  - [x] 6.1 Create ClientService with CRUD operations
     - Create ClientService in src/lib/services
     - Implement createClient() with validation
     - Implement updateClient() with RM authorization check
@@ -82,22 +82,22 @@ This implementation plan breaks down the Cross-Ecosystem Opportunity Finder into
     - Implement getClientById() and getAllClients()
     - _Requirements: 1.1, 1.2, 1.5_
   
-  - [~] 6.2 Implement access control and data redaction
+  - [x] 6.2 Implement access control and data redaction
     - Create AccessControlService in src/lib/services
     - Create canAccessClient() and canModifyClient() authorization checks
     - Implement redactClientForCrossRMView() to hide sensitive fields
     - Add audit logging for all client data access
     - _Requirements: 1.4, 7.2, 7.3, 7.4, 7.5_
 
-- [ ] 7. Implement opportunity detection service
-  - [ ] 7.1 Create opportunity candidate generation
+- [x] 7. Implement opportunity detection service
+  - [x] 7.1 Create opportunity candidate generation
     - Create OpportunityDetectionService in src/lib/services
     - Implement generateCandidatePairs() to create all cross-RM client pairs
     - Filter pairs to only include different RMs
     - Prioritize pairs with complementary ecosystem positions
     - _Requirements: 3.4, 3.5_
   
-  - [ ] 7.2 Implement opportunity evaluation with batch LLM processing
+  - [x] 7.2 Implement opportunity evaluation with batch LLM processing
     - Create evaluatePair() that calls LLM scoringService
     - Implement detectOpportunities() to process all candidate pairs using batchProcessor
     - Use batch processing for efficient LLM calls (process multiple pairs in parallel)
@@ -105,7 +105,7 @@ This implementation plan breaks down the Cross-Ecosystem Opportunity Finder into
     - Flag low-confidence opportunities for review
     - _Requirements: 3.1, 3.2, 3.3, 8.5_
   
-  - [ ] 7.3 Implement opportunity brief generation
+  - [x] 7.3 Implement opportunity brief generation
     - Create OpportunityBriefService in src/lib/services
     - Use LLM summaryService for brief titles
     - Use LLM detailService for detailed explanations
@@ -115,7 +115,7 @@ This implementation plan breaks down the Cross-Ecosystem Opportunity Finder into
     - _Requirements: 4.1, 4.2, 4.3, 4.4_
 
 - [ ] 8. Implement RM collaboration service
-  - [ ] 8.1 Create invitation management
+  - [x] 8.1 Create invitation management
     - Create CollaborationService in src/lib/services
     - Implement sendInvitation() with duplicate checking
     - Implement getInvitationsForRM() to retrieve invitations
@@ -123,7 +123,7 @@ This implementation plan breaks down the Cross-Ecosystem Opportunity Finder into
     - Record sender and timestamp for all invitations
     - _Requirements: 6.1, 6.2, 6.3, 6.4_
   
-  - [ ] 8.2 Add invitation-opportunity association
+  - [x] 8.2 Add invitation-opportunity association
     - Ensure invitations include full opportunity brief data
     - Implement retrieval of opportunity details with invitations
     - _Requirements: 6.5_
@@ -134,8 +134,8 @@ This implementation plan breaks down the Cross-Ecosystem Opportunity Finder into
   - Check audit logging is working
   - Ask the user if questions arise
 
-- [ ] 10. Create mock data as JSON files
-  - [ ] 10.1 Create JSON mock data files
+- [x] 10. Create mock data as JSON files
+  - [x] 10.1 Create JSON mock data files
     - Create src/data/mock/rms.json with 3-5 mock RMs (id, name, segment)
     - Create src/data/mock/clients.json with ~10 clients per RM
     - Include realistic company names for clean power ecosystem
@@ -144,7 +144,7 @@ This implementation plan breaks down the Cross-Ecosystem Opportunity Finder into
     - Add realistic revenue ranges and ESG alignment descriptions
     - _Requirements: 9.1, 9.2, 9.3_
   
-  - [ ] 10.2 Create data loader utility
+  - [x] 10.2 Create data loader utility
     - Create src/lib/data/mockDataLoader.ts to read JSON files
     - Implement loadMockData() function to populate stores from JSON
     - Add mode indicator (mock vs production)
@@ -166,45 +166,45 @@ This implementation plan breaks down the Cross-Ecosystem Opportunity Finder into
     - Apply data redaction for cross-RM viewing
     - _Requirements: 5.1, 5.4_
 
-- [ ] 12. Build Next.js API routes
-  - [ ] 12.1 Set up authentication utilities
+- [x] 12. Build Next.js API routes
+  - [x] 12.1 Set up authentication utilities
     - Create authentication helper in src/lib/auth.ts
     - Implement simple RM authentication (session-based for MVP)
     - Create middleware to extract RM identity from requests
     - _Requirements: 7.1_
   
-  - [ ] 12.2 Create opportunity API routes
+  - [x] 12.2 Create opportunity API routes
     - Create src/app/api/opportunities/route.ts for GET (list with filters)
     - Create src/app/api/opportunities/[id]/route.ts for GET (single)
     - Create src/app/api/opportunities/generate/route.ts for POST (trigger detection)
     - Add authentication checks
     - _Requirements: 5.2, 5.3, 5.4, 5.5_
   
-  - [ ] 12.3 Create invitation API routes
+  - [x] 12.3 Create invitation API routes
     - Create src/app/api/invitations/route.ts for POST (send) and GET (list)
     - Create src/app/api/invitations/[id]/route.ts for PUT (respond)
     - Add authentication checks
     - _Requirements: 6.1, 6.2, 6.5_
   
-  - [ ] 12.4 Create utility API routes
+  - [x] 12.4 Create utility API routes
     - Create src/app/api/mock-data/load/route.ts for POST
     - _Requirements: 9.1, 9.4_
 
-- [ ] 13. Checkpoint - Test API routes
+- [x] 13. Checkpoint - Test API routes
   - Use Postman or curl to test all API routes
   - Verify authentication and authorization
   - Test opportunity generation with mock data
   - Ask the user if questions arise
 
-- [ ] 14. Build simplified pages and components
-  - [ ] 14.1 Update dashboard as main page
+- [x] 14. Build simplified pages and components
+  - [x] 14.1 Update dashboard as main page
     - Update src/app/(main)/dashboard/page.tsx as main landing page
     - Show overview stats (total opportunities, pending invitations)
     - Add quick action buttons (Generate Opportunities, View All)
     - Display top 5 opportunities by match score
     - _Requirements: 5.1_
   
-  - [ ] 14.2 Build opportunities page
+  - [x] 14.2 Build opportunities page
     - Create src/app/(main)/opportunities/page.tsx
     - Create src/components/opportunity-table.tsx for table view
     - Display client names, ecosystem positions, match scores, RMs
@@ -213,14 +213,14 @@ This implementation plan breaks down the Cross-Ecosystem Opportunity Finder into
     - Click row to view details in modal or side panel
     - _Requirements: 5.1, 5.2, 5.3, 5.5_
   
-  - [ ] 14.3 Build opportunity detail modal/panel
+  - [x] 14.3 Build opportunity detail modal/panel
     - Create src/components/opportunity-detail.tsx
     - Show all fields: title, players, trigger, banking products, score, reasoning
     - Add "Send Invitation" button for the other RM
     - Display confidence level and review flag if applicable
     - _Requirements: 4.1, 5.4, 6.1_
   
-  - [ ] 14.4 Build invitations page
+  - [x] 14.4 Build invitations page
     - Create src/app/(main)/invitations/page.tsx
     - Create src/components/invitation-card.tsx
     - Display received invitations with opportunity briefs
@@ -228,14 +228,14 @@ This implementation plan breaks down the Cross-Ecosystem Opportunity Finder into
     - Show invitation status and timestamps
     - _Requirements: 6.2, 6.5_
 
-- [ ] 15. Create API client utilities and connect pages
-  - [ ] 15.1 Create API client helpers
+- [x] 15. Create API client utilities and connect pages
+  - [x] 15.1 Create API client helpers
     - Create src/lib/api/client.ts with typed fetch wrappers
     - Create typed API client methods for all endpoints
     - Add error handling and loading states using existing UI components (sonner for toasts)
     - _Requirements: All_
   
-  - [ ] 15.2 Connect pages to API routes
+  - [x] 15.2 Connect pages to API routes
     - Wire dashboard to GET /api/opportunities (top 5)
     - Wire opportunities page to GET /api/opportunities
     - Connect opportunity detail to GET /api/opportunities/[id]
@@ -243,27 +243,27 @@ This implementation plan breaks down the Cross-Ecosystem Opportunity Finder into
     - Connect invitations page to GET /api/invitations
     - _Requirements: All_
 
-- [ ] 16. Add opportunity generation workflow
-  - [ ] 16.1 Add generation button to dashboard
+- [x] 16. Add opportunity generation workflow
+  - [x] 16.1 Add generation button to dashboard
     - Add "Generate Opportunities" button to dashboard
     - Trigger opportunity detection via POST /api/opportunities/generate
     - Show progress indicator during LLM processing using existing UI
     - Display toast notification with summary of generated opportunities
     - _Requirements: 3.1, 3.2_
 
-- [ ] 17. Final integration and polish
-  - [ ] 17.1 Load mock data on startup
+- [x] 17. Final integration and polish
+  - [x] 17.1 Load mock data on startup
     - Automatically load mock data when app initializes
     - Add indicator in dashboard showing "Mock Data Mode"
     - _Requirements: 9.1, 9.4_
   
-  - [ ] 17.2 Add error handling and user feedback
+  - [x] 17.2 Add error handling and user feedback
     - Use existing sonner toast for success/error messages
     - Add loading spinners for async operations
     - Ensure all actions provide user feedback
     - _Requirements: All_
   
-  - [ ] 17.3 Polish UI with existing components
+  - [x] 17.3 Polish UI with existing components
     - Use existing shadcn/ui components for consistency
     - Add lucide-react icons for ecosystem positions
     - Ensure responsive design works on mobile

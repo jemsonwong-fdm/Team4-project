@@ -1,0 +1,332 @@
+Opportunity Briefs
+
+Opportunity Title: DragonSun Developments + GreatWall EPC
+Match & Score:
+  Ecosystem pairing: Project Developers + EPC Contractors
+  Geographic proximity: Same city
+  Match score: 48.0
+Match Explanation:
+Confirmation: Project Developers + EPC Contractors is a valid ecosystem pairing.
+Project Developers and EPC Contractors interact in the clean power ecosystem.
+Geographic proximity: Same city.
+------------------------------------------------------------
+Opportunity Title: Outback Renewables + SouthernCross EPC
+Match & Score:
+  Ecosystem pairing: Project Developers + EPC Contractors
+  Geographic proximity: Same city
+  Match score: 48.0
+Match Explanation:
+Confirmation: Project Developers + EPC Contractors is a valid ecosystem pairing.
+Project Developers and EPC Contractors interact in the clean power ecosystem.
+Geographic proximity: Same city.
+------------------------------------------------------------
+Opportunity Title: JadeTech Manufacturing + PearlRiver Storage
+Match & Score:
+  Ecosystem pairing: Technology & Equipment Suppliers + Storage Suppliers
+  Geographic proximity: Same city
+  Match score: 46.8
+Match Explanation:
+Confirmation: Technology & Equipment Suppliers + Storage Suppliers is a valid ecosystem pairing.
+Technology & Equipment Suppliers and Storage Suppliers interact in the clean power ecosystem.
+Geographic proximity: Same city.
+------------------------------------------------------------
+Opportunity Title: Outback Renewables + CoralBay Capital
+Match & Score:
+  Ecosystem pairing: Project Developers + Project Sponsors & Investors
+  Geographic proximity: Same country
+  Match score: 28.0
+Match Explanation:
+Confirmation: Project Developers + Project Sponsors & Investors is a valid ecosystem pairing.
+Project Developers and Project Sponsors & Investors interact in the clean power ecosystem.
+Geographic proximity: Same country.
+------------------------------------------------------------
+Opportunity Title: GreatWall EPC + JadeTech Manufacturing
+Match & Score:
+  Ecosystem pairing: EPC Contractors + Technology & Equipment Suppliers
+  Geographic proximity: Same country
+  Match score: 27.6
+Match Explanation:
+Confirmation: EPC Contractors + Technology & Equipment Suppliers is a valid ecosystem pairing.
+EPC Contractors and Technology & Equipment Suppliers interact in the clean power ecosystem.
+Geographic proximity: Same country.
+------------------------------------------------------------
+Opportunity Title: SouthernCross EPC + KoalaTech Systems
+Match & Score:
+  Ecosystem pairing: EPC Contractors + Technology & Equipment Suppliers
+  Geographic proximity: Same country
+  Match score: 27.6
+Match Explanation:
+Confirmation: EPC Contractors + Technology & Equipment Suppliers is a valid ecosystem pairing.
+EPC Contractors and Technology & Equipment Suppliers interact in the clean power ecosystem.
+Geographic proximity: Same country.
+------------------------------------------------------------
+Opportunity Title: DragonSun Developments + JadeTech Manufacturing
+Match & Score:
+  Ecosystem pairing: Project Developers + Technology & Equipment Suppliers
+  Geographic proximity: Same country
+  Match score: 27.2
+Match Explanation:
+Confirmation: Project Developers + Technology & Equipment Suppliers is a valid ecosystem pairing.
+Project Developers and Technology & Equipment Suppliers interact in the clean power ecosystem.
+Geographic proximity: Same country.
+------------------------------------------------------------
+Opportunity Title: Outback Renewables + KoalaTech Systems
+Match & Score:
+  Ecosystem pairing: Project Developers + Technology & Equipment Suppliers
+  Geographic proximity: Same country
+  Match score: 27.2
+Match Explanation:
+Confirmation: Project Developers + Technology & Equipment Suppliers is a valid ecosystem pairing.
+Project Developers and Technology & Equipment Suppliers interact in the clean power ecosystem.
+Geographic proximity: Same country.
+------------------------------------------------------------
+Opportunity Title: DragonSun Developments + PearlRiver Storage
+Match & Score:
+  Ecosystem pairing: Project Developers + Storage Suppliers
+  Geographic proximity: Same country
+  Match score: 26.8
+Match Explanation:
+Confirmation: Project Developers + Storage Suppliers is a valid ecosystem pairing.
+Project Developers and Storage Suppliers interact in the clean power ecosystem.
+Geographic proximity: Same country.
+------------------------------------------------------------
+Opportunity Title: SinoGrid Networks + JadeTech Manufacturing
+Match & Score:
+  Ecosystem pairing: Grid & Transmission Operators + Technology & Equipment Suppliers
+  Geographic proximity: Same country
+  Match score: 26.8
+Match Explanation:
+Confirmation: Grid & Transmission Operators + Technology & Equipment Suppliers is a valid ecosystem pairing.
+Grid & Transmission Operators and Technology & Equipment Suppliers interact in the clean power ecosystem.
+Geographic proximity: Same country.
+------------------------------------------------------------
+Opportunity Title: AussieGrid Services + KoalaTech Systems
+Match & Score:
+  Ecosystem pairing: Grid & Transmission Operators + Technology & Equipment Suppliers
+  Geographic proximity: Same country
+  Match score: 26.8
+Match Explanation:
+Confirmation: Grid & Transmission Operators + Technology & Equipment Suppliers is a valid ecosystem pairing.
+Grid & Transmission Operators and Technology & Equipment Suppliers interact in the clean power ecosystem.
+Geographic proximity: Same country.
+------------------------------------------------------------
+Opportunity Title: SouthernCross EPC + CoralBay Capital
+Match & Score:
+  Ecosystem pairing: EPC Contractors + Project Sponsors & Investors
+  Geographic proximity: Same country
+  Match score: 26.4
+Match Explanation:
+Confirmation: EPC Contractors + Project Sponsors & Investors is a valid ecosystem pairing.
+EPC Contractors and Project Sponsors & Investors interact in the clean power ecosystem.
+Geographic proximity: Same country.
+------------------------------------------------------------
+Opportunity Title: DragonSun Developments + SinoGrid Networks
+Match & Score:
+  Ecosystem pairing: Project Developers + Grid & Transmission Operators
+  Geographic proximity: Same country
+  Match score: 25.5
+Match Explanation:
+Confirmation: Project Developers + Grid & Transmission Operators is a valid ecosystem pairing.
+Project Developers and Grid & Transmission Operators interact in the clean power ecosystem.
+Geographic proximity: Same country.
+------------------------------------------------------------
+Opportunity Title: DragonSun Developments + RedLeaf Research
+Match & Score:
+  Ecosystem pairing: Project Developers + Research, Innovation & Early‑stage Companies
+  Geographic proximity: Same country
+  Match score: 25.5
+Match Explanation:
+Confirmation: Project Developers + Research, Innovation & Early‑stage Companies is a valid ecosystem pairing.
+Project Developers and Research, Innovation & Early‑stage Companies interact in the clean power ecosystem.
+Geographic proximity: Same country.
+------------------------------------------------------------
+Opportunity Title: Outback Renewables + AussieGrid Services
+Match & Score:
+  Ecosystem pairing: Project Developers + Grid & Transmission Operators
+  Geographic proximity: Same country
+  Match score: 25.5
+Match Explanation:
+Confirmation: Project Developers + Grid & Transmission Operators is a valid ecosystem pairing.
+Project Developers and Grid & Transmission Operators interact in the clean power ecosystem.
+Geographic proximity: Same country.
+------------------------------------------------------------
+Opportunity Title: RedLeaf Research + JadeTech Manufacturing
+Match & Score:
+  Ecosystem pairing: Research, Innovation & Early‑stage Companies + Technology & Equipment Suppliers
+  Geographic proximity: Same country
+  Match score: 25.1
+Match Explanation:
+Confirmation: Research, Innovation & Early‑stage Companies + Technology & Equipment Suppliers is a valid ecosystem pairing.
+Research, Innovation & Early‑stage Companies and Technology & Equipment Suppliers interact in the clean power ecosystem.
+Geographic proximity: Same country.
+------------------------------------------------------------
+Opportunity Title: DragonSun Developments + SouthernCross EPC
+Match & Score:
+  Ecosystem pairing: Project Developers + EPC Contractors
+  Geographic proximity: Cross-country
+  Match score: 8.0
+Match Explanation:
+Confirmation: Project Developers + EPC Contractors is a valid ecosystem pairing.
+Project Developers and EPC Contractors interact in the clean power ecosystem.
+Geographic proximity: Cross-country.
+------------------------------------------------------------
+Opportunity Title: DragonSun Developments + CoralBay Capital
+Match & Score:
+  Ecosystem pairing: Project Developers + Project Sponsors & Investors
+  Geographic proximity: Cross-country
+  Match score: 8.0
+Match Explanation:
+Confirmation: Project Developers + Project Sponsors & Investors is a valid ecosystem pairing.
+Project Developers and Project Sponsors & Investors interact in the clean power ecosystem.
+Geographic proximity: Cross-country.
+------------------------------------------------------------
+Opportunity Title: GreatWall EPC + Outback Renewables
+Match & Score:
+  Ecosystem pairing: EPC Contractors + Project Developers
+  Geographic proximity: Cross-country
+  Match score: 8.0
+Match Explanation:
+Confirmation: EPC Contractors + Project Developers is a valid ecosystem pairing.
+EPC Contractors and Project Developers interact in the clean power ecosystem.
+Geographic proximity: Cross-country.
+------------------------------------------------------------
+Opportunity Title: GreatWall EPC + KoalaTech Systems
+Match & Score:
+  Ecosystem pairing: EPC Contractors + Technology & Equipment Suppliers
+  Geographic proximity: Cross-country
+  Match score: 7.6
+Match Explanation:
+Confirmation: EPC Contractors + Technology & Equipment Suppliers is a valid ecosystem pairing.
+EPC Contractors and Technology & Equipment Suppliers interact in the clean power ecosystem.
+Geographic proximity: Cross-country.
+------------------------------------------------------------
+Opportunity Title: JadeTech Manufacturing + SouthernCross EPC
+Match & Score:
+  Ecosystem pairing: Technology & Equipment Suppliers + EPC Contractors
+  Geographic proximity: Cross-country
+  Match score: 7.6
+Match Explanation:
+Confirmation: Technology & Equipment Suppliers + EPC Contractors is a valid ecosystem pairing.
+Technology & Equipment Suppliers and EPC Contractors interact in the clean power ecosystem.
+Geographic proximity: Cross-country.
+------------------------------------------------------------
+Opportunity Title: DragonSun Developments + KoalaTech Systems
+Match & Score:
+  Ecosystem pairing: Project Developers + Technology & Equipment Suppliers
+  Geographic proximity: Cross-country
+  Match score: 7.2
+Match Explanation:
+Confirmation: Project Developers + Technology & Equipment Suppliers is a valid ecosystem pairing.
+Project Developers and Technology & Equipment Suppliers interact in the clean power ecosystem.
+Geographic proximity: Cross-country.
+------------------------------------------------------------
+Opportunity Title: JadeTech Manufacturing + Outback Renewables
+Match & Score:
+  Ecosystem pairing: Technology & Equipment Suppliers + Project Developers
+  Geographic proximity: Cross-country
+  Match score: 7.2
+Match Explanation:
+Confirmation: Technology & Equipment Suppliers + Project Developers is a valid ecosystem pairing.
+Technology & Equipment Suppliers and Project Developers interact in the clean power ecosystem.
+Geographic proximity: Cross-country.
+------------------------------------------------------------
+Opportunity Title: SinoGrid Networks + KoalaTech Systems
+Match & Score:
+  Ecosystem pairing: Grid & Transmission Operators + Technology & Equipment Suppliers
+  Geographic proximity: Cross-country
+  Match score: 6.8
+Match Explanation:
+Confirmation: Grid & Transmission Operators + Technology & Equipment Suppliers is a valid ecosystem pairing.
+Grid & Transmission Operators and Technology & Equipment Suppliers interact in the clean power ecosystem.
+Geographic proximity: Cross-country.
+------------------------------------------------------------
+Opportunity Title: JadeTech Manufacturing + AussieGrid Services
+Match & Score:
+  Ecosystem pairing: Technology & Equipment Suppliers + Grid & Transmission Operators
+  Geographic proximity: Cross-country
+  Match score: 6.8
+Match Explanation:
+Confirmation: Technology & Equipment Suppliers + Grid & Transmission Operators is a valid ecosystem pairing.
+Technology & Equipment Suppliers and Grid & Transmission Operators interact in the clean power ecosystem.
+Geographic proximity: Cross-country.
+------------------------------------------------------------
+Opportunity Title: PearlRiver Storage + Outback Renewables
+Match & Score:
+  Ecosystem pairing: Storage Suppliers + Project Developers
+  Geographic proximity: Cross-country
+  Match score: 6.8
+Match Explanation:
+Confirmation: Storage Suppliers + Project Developers is a valid ecosystem pairing.
+Storage Suppliers and Project Developers interact in the clean power ecosystem.
+Geographic proximity: Cross-country.
+------------------------------------------------------------
+Opportunity Title: PearlRiver Storage + KoalaTech Systems
+Match & Score:
+  Ecosystem pairing: Storage Suppliers + Technology & Equipment Suppliers
+  Geographic proximity: Cross-country
+  Match score: 6.8
+Match Explanation:
+Confirmation: Storage Suppliers + Technology & Equipment Suppliers is a valid ecosystem pairing.
+Storage Suppliers and Technology & Equipment Suppliers interact in the clean power ecosystem.
+Geographic proximity: Cross-country.
+------------------------------------------------------------
+Opportunity Title: GreatWall EPC + CoralBay Capital
+Match & Score:
+  Ecosystem pairing: EPC Contractors + Project Sponsors & Investors
+  Geographic proximity: Cross-country
+  Match score: 6.4
+Match Explanation:
+Confirmation: EPC Contractors + Project Sponsors & Investors is a valid ecosystem pairing.
+EPC Contractors and Project Sponsors & Investors interact in the clean power ecosystem.
+Geographic proximity: Cross-country.
+------------------------------------------------------------
+Opportunity Title: DragonSun Developments + AussieGrid Services
+Match & Score:
+  Ecosystem pairing: Project Developers + Grid & Transmission Operators
+  Geographic proximity: Cross-country
+  Match score: 5.5
+Match Explanation:
+Confirmation: Project Developers + Grid & Transmission Operators is a valid ecosystem pairing.
+Project Developers and Grid & Transmission Operators interact in the clean power ecosystem.
+Geographic proximity: Cross-country.
+------------------------------------------------------------
+Opportunity Title: SinoGrid Networks + Outback Renewables
+Match & Score:
+  Ecosystem pairing: Grid & Transmission Operators + Project Developers
+  Geographic proximity: Cross-country
+  Match score: 5.5
+Match Explanation:
+Confirmation: Grid & Transmission Operators + Project Developers is a valid ecosystem pairing.
+Grid & Transmission Operators and Project Developers interact in the clean power ecosystem.
+Geographic proximity: Cross-country.
+------------------------------------------------------------
+Opportunity Title: RedLeaf Research + Outback Renewables
+Match & Score:
+  Ecosystem pairing: Research, Innovation & Early‑stage Companies + Project Developers
+  Geographic proximity: Cross-country
+  Match score: 5.5
+Match Explanation:
+Confirmation: Research, Innovation & Early‑stage Companies + Project Developers is a valid ecosystem pairing.
+Research, Innovation & Early‑stage Companies and Project Developers interact in the clean power ecosystem.
+Geographic proximity: Cross-country.
+------------------------------------------------------------
+Opportunity Title: RedLeaf Research + KoalaTech Systems
+Match & Score:
+  Ecosystem pairing: Research, Innovation & Early‑stage Companies + Technology & Equipment Suppliers
+  Geographic proximity: Cross-country
+  Match score: 5.1
+Match Explanation:
+Confirmation: Research, Innovation & Early‑stage Companies + Technology & Equipment Suppliers is a valid ecosystem pairing.
+Research, Innovation & Early‑stage Companies and Technology & Equipment Suppliers interact in the clean power ecosystem.
+Geographic proximity: Cross-country.
+------------------------------------------------------------
+Opportunity Title: RedLeaf Research + CoralBay Capital
+Match & Score:
+  Ecosystem pairing: Research, Innovation & Early‑stage Companies + Project Sponsors & Investors
+  Geographic proximity: Cross-country
+  Match score: 4.7
+Match Explanation:
+Confirmation: Research, Innovation & Early‑stage Companies + Project Sponsors & Investors is a valid ecosystem pairing.
+Research, Innovation & Early‑stage Companies and Project Sponsors & Investors interact in the clean power ecosystem.
+Geographic proximity: Cross-country.
+------------------------------------------------------------

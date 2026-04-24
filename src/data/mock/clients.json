@@ -1,0 +1,458 @@
+[
+    {
+        "id": "client-001",
+        "companyName": "DragonSun Developments",
+        "ecosystemPositions": [
+            "Project Developers"
+        ],
+        "geography": "Shanghai, China",
+        "revenue": 780000000,
+        "esgAlignment": "Science-based net-zero target by 2040 with annual TCFD reporting",
+        "rmId": "rm-001"
+    },
+    {
+        "id": "client-002",
+        "companyName": "GreatWall EPC",
+        "ecosystemPositions": [
+            "EPC Contractors"
+        ],
+        "geography": "Shanghai, China",
+        "revenue": 520000000,
+        "esgAlignment": "100% renewable portfolio standard and biodiversity impact screening",
+        "rmId": "rm-001"
+    },
+    {
+        "id": "client-003",
+        "companyName": "SinoGrid Networks",
+        "ecosystemPositions": [
+            "Grid & Transmission Operators"
+        ],
+        "geography": "Beijing, China",
+        "revenue": 340000000,
+        "esgAlignment": "ISO 14001 certified sites and embodied-carbon procurement policy",
+        "rmId": "rm-001"
+    },
+    {
+        "id": "client-004",
+        "companyName": "RedLeaf Research",
+        "ecosystemPositions": [
+            "Research, Innovation & Early-stage Companies"
+        ],
+        "geography": "Beijing, China",
+        "revenue": 960000000,
+        "esgAlignment": "Coal phase-out commitment and supplier human-rights due diligence",
+        "rmId": "rm-001"
+    },
+    {
+        "id": "client-005",
+        "companyName": "JadeTech Manufacturing",
+        "ecosystemPositions": [
+            "Technology & Equipment Suppliers"
+        ],
+        "geography": "Shenzhen, China",
+        "revenue": 285000000,
+        "esgAlignment": "Battery lifecycle traceability and circular recycling partnerships",
+        "rmId": "rm-001"
+    },
+    {
+        "id": "client-006",
+        "companyName": "PearlRiver Storage",
+        "ecosystemPositions": [
+            "Storage Suppliers"
+        ],
+        "geography": "Shenzhen, China",
+        "revenue": 410000000,
+        "esgAlignment": "Community benefit agreements and climate-risk stress testing",
+        "rmId": "rm-001"
+    },
+    {
+        "id": "client-007",
+        "companyName": "Outback Renewables",
+        "ecosystemPositions": [
+            "Project Developers"
+        ],
+        "geography": "Sydney, Australia",
+        "revenue": 165000000,
+        "esgAlignment": "Inclusive energy access program with verified social impact metrics",
+        "rmId": "rm-001"
+    },
+    {
+        "id": "client-008",
+        "companyName": "SouthernCross EPC",
+        "ecosystemPositions": [
+            "EPC Contractors"
+        ],
+        "geography": "Sydney, Australia",
+        "revenue": 230000000,
+        "esgAlignment": "Green hydrogen certification pathway and low-water design standards",
+        "rmId": "rm-001"
+    },
+    {
+        "id": "client-009",
+        "companyName": "AussieGrid Services",
+        "ecosystemPositions": [
+            "Grid & Transmission Operators"
+        ],
+        "geography": "Melbourne, Australia",
+        "revenue": 690000000,
+        "esgAlignment": "Grid modernization roadmap aligned to 1.5°C scenario planning",
+        "rmId": "rm-001"
+    },
+    {
+        "id": "client-010",
+        "companyName": "BlueGum Energy Buyers",
+        "ecosystemPositions": [
+            "Energy Off-takers"
+        ],
+        "geography": "Melbourne, Australia",
+        "revenue": 575000000,
+        "esgAlignment": "Scope 1-3 emissions baseline with annual reduction milestones",
+        "rmId": "rm-001"
+    },
+    {
+        "id": "client-011",
+        "companyName": "KoalaTech Systems",
+        "ecosystemPositions": [
+            "Technology & Equipment Suppliers"
+        ],
+        "geography": "Brisbane, Australia",
+        "revenue": 1250000000,
+        "esgAlignment": "Supplier decarbonization program and recycled steel sourcing targets",
+        "rmId": "rm-002"
+    },
+    {
+        "id": "client-012",
+        "companyName": "CoralBay Capital",
+        "ecosystemPositions": [
+            "Project Sponsors & Investors"
+        ],
+        "geography": "Brisbane, Australia",
+        "revenue": 2100000000,
+        "esgAlignment": "PV manufacturing powered by renewables with third-party ESG assurance",
+        "rmId": "rm-002"
+    },
+    {
+        "id": "client-013",
+        "companyName": "GridSense Digital Controls",
+        "ecosystemPositions": [
+            "Technology & Equipment Suppliers",
+            "Grid & Transmission Operators"
+        ],
+        "geography": "North America",
+        "revenue": 460000000,
+        "esgAlignment": "Cyber-resilience and energy-efficiency controls reducing system losses",
+        "rmId": "rm-002"
+    },
+    {
+        "id": "client-014",
+        "companyName": "Electra EPC Services",
+        "ecosystemPositions": [
+            "EPC Contractors"
+        ],
+        "geography": "Middle East",
+        "revenue": 375000000,
+        "esgAlignment": "Worker safety excellence and sustainable construction material policy",
+        "rmId": "rm-002"
+    },
+    {
+        "id": "client-015",
+        "companyName": "PolarCell Energy Storage",
+        "ecosystemPositions": [
+            "Storage Suppliers",
+            "Technology & Equipment Suppliers"
+        ],
+        "geography": "Europe",
+        "revenue": 920000000,
+        "esgAlignment": "Responsible minerals program and closed-loop battery recycling",
+        "rmId": "rm-002"
+    },
+    {
+        "id": "client-016",
+        "companyName": "BlueCurrent Cable Works",
+        "ecosystemPositions": [
+            "Technology & Equipment Suppliers",
+            "Grid & Transmission Operators"
+        ],
+        "geography": "Latin America",
+        "revenue": 305000000,
+        "esgAlignment": "Low-loss transmission component strategy and ethical sourcing audits",
+        "rmId": "rm-002"
+    },
+    {
+        "id": "client-017",
+        "companyName": "SkyForge Inverters",
+        "ecosystemPositions": [
+            "Technology & Equipment Suppliers"
+        ],
+        "geography": "Asia-Pacific",
+        "revenue": 660000000,
+        "esgAlignment": "Product eco-design standards and take-back commitments",
+        "rmId": "rm-002"
+    },
+    {
+        "id": "client-018",
+        "companyName": "RiverSpan Engineering",
+        "ecosystemPositions": [
+            "EPC Contractors",
+            "Technology & Equipment Suppliers"
+        ],
+        "geography": "Africa",
+        "revenue": 215000000,
+        "esgAlignment": "Local workforce development and anti-corruption governance controls",
+        "rmId": "rm-002"
+    },
+    {
+        "id": "client-019",
+        "companyName": "VoltAxis Components",
+        "ecosystemPositions": [
+            "Technology & Equipment Suppliers"
+        ],
+        "geography": "North America",
+        "revenue": 540000000,
+        "esgAlignment": "Net-positive manufacturing pilots and science-based emissions pathway",
+        "rmId": "rm-002"
+    },
+    {
+        "id": "client-020",
+        "companyName": "TerraStack Hydrogen Systems",
+        "ecosystemPositions": [
+            "Storage Suppliers",
+            "Technology & Equipment Suppliers"
+        ],
+        "geography": "Middle East",
+        "revenue": 445000000,
+        "esgAlignment": "Green hydrogen technology roadmap with independent impact verification",
+        "rmId": "rm-002"
+    },
+    {
+        "id": "client-021",
+        "companyName": "Summit Green Capital",
+        "ecosystemPositions": [
+            "Project Sponsors & Investors"
+        ],
+        "geography": "Europe",
+        "revenue": 3100000000,
+        "esgAlignment": "Article 9-aligned fund strategy and climate-risk investment exclusions",
+        "rmId": "rm-003"
+    },
+    {
+        "id": "client-022",
+        "companyName": "Frontier Infrastructure Fund",
+        "ecosystemPositions": [
+            "Project Sponsors & Investors"
+        ],
+        "geography": "North America",
+        "revenue": 4800000000,
+        "esgAlignment": "Transition finance framework with transparent stewardship reporting",
+        "rmId": "rm-003"
+    },
+    {
+        "id": "client-023",
+        "companyName": "Catalyst Climate Ventures",
+        "ecosystemPositions": [
+            "Project Sponsors & Investors",
+            "Research, Innovation & Early-stage Companies"
+        ],
+        "geography": "Asia-Pacific",
+        "revenue": 890000000,
+        "esgAlignment": "Early-stage climate innovation portfolio with measurable impact KPIs",
+        "rmId": "rm-003"
+    },
+    {
+        "id": "client-024",
+        "companyName": "Nexus CleanTech Labs",
+        "ecosystemPositions": [
+            "Research, Innovation & Early-stage Companies"
+        ],
+        "geography": "Europe",
+        "revenue": 82000000,
+        "esgAlignment": "Open innovation governance and responsible AI principles for energy analytics",
+        "rmId": "rm-003"
+    },
+    {
+        "id": "client-025",
+        "companyName": "Orbital Grid Research Institute",
+        "ecosystemPositions": [
+            "Research, Innovation & Early-stage Companies",
+            "Grid & Transmission Operators"
+        ],
+        "geography": "Middle East",
+        "revenue": 96000000,
+        "esgAlignment": "Grid resilience R&D with climate adaptation and public transparency commitments",
+        "rmId": "rm-003"
+    },
+    {
+        "id": "client-026",
+        "companyName": "Harbor Blended Finance Advisors",
+        "ecosystemPositions": [
+            "Project Sponsors & Investors"
+        ],
+        "geography": "Africa",
+        "revenue": 145000000,
+        "esgAlignment": "Inclusive finance mandate and strict anti-money laundering controls",
+        "rmId": "rm-003"
+    },
+    {
+        "id": "client-027",
+        "companyName": "Pioneer Carbon Markets",
+        "ecosystemPositions": [
+            "Project Sponsors & Investors",
+            "Energy Off-takers"
+        ],
+        "geography": "Latin America",
+        "revenue": 230000000,
+        "esgAlignment": "High-integrity carbon credit policy and independent verification standards",
+        "rmId": "rm-003"
+    },
+    {
+        "id": "client-028",
+        "companyName": "SeedSpark Storage Ventures",
+        "ecosystemPositions": [
+            "Research, Innovation & Early-stage Companies",
+            "Storage Suppliers"
+        ],
+        "geography": "Asia-Pacific",
+        "revenue": 67000000,
+        "esgAlignment": "Responsible innovation charter and product lifecycle assessment disclosure",
+        "rmId": "rm-003"
+    },
+    {
+        "id": "client-029",
+        "companyName": "Delta Sovereign Infrastructure Office",
+        "ecosystemPositions": [
+            "Project Sponsors & Investors"
+        ],
+        "geography": "Middle East",
+        "revenue": 4200000000,
+        "esgAlignment": "Long-term climate allocation targets with public impact audits",
+        "rmId": "rm-003"
+    },
+    {
+        "id": "client-030",
+        "companyName": "ArcFusion Venture Debt",
+        "ecosystemPositions": [
+            "Project Sponsors & Investors",
+            "Research, Innovation & Early-stage Companies"
+        ],
+        "geography": "North America",
+        "revenue": 310000000,
+        "esgAlignment": "Venture debt policy tied to emissions intensity and governance quality",
+        "rmId": "rm-003"
+    },
+    {
+        "id": "client-031",
+        "companyName": "Metro Utility Procurement",
+        "ecosystemPositions": [
+            "Energy Off-takers"
+        ],
+        "geography": "North America",
+        "revenue": 2600000000,
+        "esgAlignment": "PPA-backed decarbonization roadmap and equitable energy affordability targets",
+        "rmId": "rm-004"
+    },
+    {
+        "id": "client-032",
+        "companyName": "EuroGrid Public Buyer Alliance",
+        "ecosystemPositions": [
+            "Energy Off-takers",
+            "Grid & Transmission Operators"
+        ],
+        "geography": "Europe",
+        "revenue": 1800000000,
+        "esgAlignment": "Green public procurement standards and climate adaptation budgeting",
+        "rmId": "rm-004"
+    },
+    {
+        "id": "client-033",
+        "companyName": "Pacific Data Center Energy",
+        "ecosystemPositions": [
+            "Energy Off-takers"
+        ],
+        "geography": "Asia-Pacific",
+        "revenue": 940000000,
+        "esgAlignment": "24/7 carbon-free energy procurement strategy with annual progress disclosure",
+        "rmId": "rm-004"
+    },
+    {
+        "id": "client-034",
+        "companyName": "Andes Mining Power Buyers",
+        "ecosystemPositions": [
+            "Energy Off-takers"
+        ],
+        "geography": "Latin America",
+        "revenue": 1220000000,
+        "esgAlignment": "Methane reduction and renewable procurement commitments across operations",
+        "rmId": "rm-004"
+    },
+    {
+        "id": "client-035",
+        "companyName": "Desert Transmission Authority",
+        "ecosystemPositions": [
+            "Grid & Transmission Operators"
+        ],
+        "geography": "Middle East",
+        "revenue": 1370000000,
+        "esgAlignment": "Grid reliability modernization and biodiversity safeguards for transmission corridors",
+        "rmId": "rm-004"
+    },
+    {
+        "id": "client-036",
+        "companyName": "NorthSea Port Electrification",
+        "ecosystemPositions": [
+            "Energy Off-takers",
+            "Project Developers"
+        ],
+        "geography": "Europe",
+        "revenue": 630000000,
+        "esgAlignment": "Shore-power expansion and low-emission logistics transition plan",
+        "rmId": "rm-004"
+    },
+    {
+        "id": "client-037",
+        "companyName": "Kigali Mobility Power Cooperative",
+        "ecosystemPositions": [
+            "Energy Off-takers",
+            "Research, Innovation & Early-stage Companies"
+        ],
+        "geography": "Africa",
+        "revenue": 53000000,
+        "esgAlignment": "Electric mobility transition with transparent social impact accounting",
+        "rmId": "rm-004"
+    },
+    {
+        "id": "client-038",
+        "companyName": "Harbor Cold Chain Utilities",
+        "ecosystemPositions": [
+            "Energy Off-takers",
+            "Storage Suppliers"
+        ],
+        "geography": "Asia-Pacific",
+        "revenue": 410000000,
+        "esgAlignment": "Energy efficiency retrofits and low-GWP refrigerant conversion targets",
+        "rmId": "rm-004"
+    },
+    {
+        "id": "client-039",
+        "companyName": "Prairie Municipal Power Pool",
+        "ecosystemPositions": [
+            "Energy Off-takers",
+            "Project Sponsors & Investors"
+        ],
+        "geography": "North America",
+        "revenue": 780000000,
+        "esgAlignment": "Community transition financing and affordability-protected tariff design",
+        "rmId": "rm-004"
+    },
+    {
+        "id": "client-040",
+        "companyName": "Sahara Water Desalination Energy",
+        "ecosystemPositions": [
+            "Energy Off-takers",
+            "EPC Contractors"
+        ],
+        "geography": "Africa",
+        "revenue": 350000000,
+        "esgAlignment": "Water-energy nexus sustainability policy and low-carbon procurement charter",
+        "rmId": "rm-004"
+    }
+]

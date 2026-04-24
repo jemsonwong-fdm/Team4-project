@@ -1,0 +1,22 @@
+[
+    {
+        "id": "rm-001",
+        "name": "Sarah Chen",
+        "segment": "Project Developers"
+    },
+    {
+        "id": "rm-002",
+        "name": "Miguel Alvarez",
+        "segment": "Technology & Equipment Suppliers"
+    },
+    {
+        "id": "rm-003",
+        "name": "Priya Nair",
+        "segment": "Project Sponsors & Investors"
+    },
+    {
+        "id": "rm-004",
+        "name": "James Okafor",
+        "segment": "Energy Off-takers"
+    }
+]
