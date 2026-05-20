@@ -4,13 +4,35 @@ A compact project providing a Next.js frontend and a Python backend for matching
 
 **Contents**
 - [About](#about)
+- [Sample data](#Sample-data)
+- [Python script](#Python-script)
 - [How to run](#how-to-run)
 - [Tech stack](#tech-stack)
 - [Files to know](#files-to-know)
 
 ## About
 
-This repository contains a React/Next.js frontend and a Python-based matching service. The frontend serves the UI and developer experience; the Python service performs the matching logic and can be run as a local HTTP service.
+This repository contains a React/Next.js frontend and a Python-based matching service. The frontend serves the UI and developer experience; the Python service performs the matching logic and can be run as a local HTTP service. Additionally, there are instructions on how to generate the sample data and python script.
+
+## Sample data
+
+Prerequisites (found in documents folder)
+1. the specification document
+2. Clean Power Ecosystem pdf file
+3. HSBC X FDM AI Hackathon description pdf file
+
+Navigate to Copilot Agent. For the prompt, give in the Prerequisites and tell it to generate the sample data in the form of a csv file, with the columns being: Company Name,Ecosystem Position,City,Country
+
+## Python script
+
+Prerequisites (found in documents folder)
+1. the specification document
+2. Clean Power Ecosystem pdf file
+3. HSBC X FDM AI Hackathon description pdf file
+
+Navigate to Copilot Agent. For the prompt, give in the Prerequisites and tell it to generate a python script that takes in the criteria listed in the spec file and add weightings for different valid matching pairs. Moreover, the output format must follow the details stated in the spec file as well.  
+
+
 
 ## How to run
 
