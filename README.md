@@ -21,7 +21,7 @@ Prerequisites (found in documents folder)
 2. Clean Power Ecosystem pdf file
 3. HSBC X FDM AI Hackathon description pdf file
 
-Navigate to Copilot Agent. For the prompt, give in the Prerequisites and tell it to generate the sample data in the form of a csv file, with the columns being: Company Name,Ecosystem Position,City,Country
+Navigate to Copilot Agent. For the prompt, give in the Prerequisites and tell it to generate the sample data in the form of a csv file, with the columns being: Company Name,Ecosystem Position,City,Country. You can specify the number of desired entries.
 
 ## Python script
 
@@ -30,8 +30,7 @@ Prerequisites (found in documents folder)
 2. Clean Power Ecosystem pdf file
 3. HSBC X FDM AI Hackathon description pdf file
 
-Navigate to Copilot Agent. For the prompt, give in the Prerequisites and tell it to generate a python script that takes in the criteria listed in the spec file and add weightings for different valid matching pairs. Moreover, the output format must follow the details stated in the spec file as well.  
-
+Navigate to Copilot Agent. Upload the prerequisites. For the prompt, the agent needs to generate a python script that takes in and score the metrics listed in the spec file and add weightings for different valid matching pairs. It should generate two output files: best matching pair and opportunity briefs. Both must follow the same format describled in the specification as well.
 
 
 ## How to run
